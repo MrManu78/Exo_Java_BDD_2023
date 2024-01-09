@@ -21,7 +21,7 @@
     <%int cpt = Integer.parseInt(valeur); %>
     <p>
     <% for (int i = 1; i <= cpt; i++) { %>
-       <% for (int p = 1; p <= cpt; i++){ %>
+       <% for (int p = 1; p <= cpt; p++){ %>
        <%= "*" %>
     <% } %>
     <% } %>
