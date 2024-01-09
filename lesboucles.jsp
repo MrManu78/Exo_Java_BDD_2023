@@ -23,11 +23,7 @@
         <% for (int i = 1; i <= cpt; i++) { %>
             <%= "*" %>
     </p>
-
-
-
-
-
+<% } %>
     <h2>Exercice 1 : Le carré d'étoiles</h2>
     <% for (int i = 1; i <= cpt; i++) { %>
         <% for (int p = 1; p <= cpt; p++){ %>
