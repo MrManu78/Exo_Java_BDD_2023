@@ -43,7 +43,7 @@
 
 <h2>Exercice 3 : Triangle rectangle inversé</h2>
 <% for (int i = 1; i <= cpt; i++) { %>
-    <% for (int p = cpt; p <= i; p--) { %>
+    <% for (int p = cpt; p >= i; p--) { %>
     <%= "*" %>
  <% } %>
     </br>
