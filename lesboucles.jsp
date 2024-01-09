@@ -52,7 +52,7 @@
 <h2>Exercice 4 : Triangle rectangle 2</h2>
 <% for (int i = 1; i <= cpt; i++) { %>
     <% 
-    for (int espace = 1; espace <= cpt - i; espace++) { %>
+    for (int espace = 1; espace <= cpt; espace++) { %>
         <%= "&nbsp;" %>
     <% } %>
     
